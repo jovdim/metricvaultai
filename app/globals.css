@@ -120,7 +120,7 @@ a { color: inherit; text-decoration: none; }
 .product-section .ps-head h2 em { font-family: 'Inter Tight', sans-serif; font-style: normal; font-weight: 800; color: var(--accent); }
 .product-section .ps-head p { font-size: 18px; color: var(--text-2); margin: 0; line-height: 1.55; }
 
-.product-frame { max-width: 1360px; margin: 0 auto; padding: 0 40px; }
+.product-frame { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
 .product-frame .pframe { background: rgba(255,255,255,0.04); border: 1px solid var(--border-strong); border-radius: 24px; padding: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.40), 0 28px 60px -20px rgba(0,0,0,0.60), 0 28px 60px -32px rgba(124,92,252,0.12), inset 0 0 0 1px rgba(255,255,255,0.05); position: relative; }
 .product-frame .pframe::before { content:""; position: absolute; inset: -3px; background: radial-gradient(ellipse at 50% 0%, rgba(124,92,252,0.16), transparent 70%); border-radius: 27px; z-index: -1; opacity: 1; filter: blur(40px); }
 .product-inner { background: linear-gradient(160deg, #14092e 0%, #07021a 100%); border-radius: 20px; padding: 24px 32px 36px; position: relative; overflow: hidden; }
@@ -252,20 +252,20 @@ a { color: inherit; text-decoration: none; }
 .ch-video .vsubtitle { position: absolute; bottom: 22px; left: 22px; font-family: 'Inter', sans-serif; font-style: normal; font-size: 13.5px; color: rgba(255,255,255,0.82); font-weight: 500; z-index: 3; max-width: 60%; letter-spacing: -0.005em; }
 
 /* SOCIAL */
-.social { position: relative; z-index: 1; padding: 100px 0 50px; }
+.social { position: relative; z-index: 1; padding: 80px 0 50px; }
 .social .section-head { text-align: center; margin-bottom: 44px; }
 .social .section-head h2 { font-size: 50px; }
-.story { max-width: 1080px; margin: 0 auto; padding: 42px 46px; background: linear-gradient(135deg, rgba(124,92,252,0.10), rgba(217,70,168,0.05)); border: 1px solid var(--border-bright); border-radius: 24px; display: grid; grid-template-columns: 1.5fr 1fr; gap: 46px; align-items: center; backdrop-filter: blur(20px); position: relative; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.35), 0 30px 64px -24px rgba(0,0,0,0.55), inset 0 0 0 1px rgba(255,255,255,0.05); }
+.story { max-width: 1040px; margin: 0 auto; padding: 36px 42px; background: linear-gradient(135deg, rgba(124,92,252,0.10), rgba(217,70,168,0.05)); border: 1px solid var(--border-bright); border-radius: 24px; display: grid; grid-template-columns: 1.5fr 1fr; gap: 46px; align-items: center; backdrop-filter: blur(20px); position: relative; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.35), 0 30px 64px -24px rgba(0,0,0,0.55), inset 0 0 0 1px rgba(255,255,255,0.05); }
 .story::before { content:""; position: absolute; top: -100px; right: -50px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(217,70,168,0.12), transparent 72%); filter: blur(56px); }
 .story .quote-mark { font-family: 'Inter Tight', sans-serif; font-style: normal; font-size: 42px; line-height: 0.8; font-weight: 800; color: var(--purple-bright); opacity: 0.35; margin-bottom: 2px; position: relative; }
-.story blockquote { font-family: 'Inter Tight', sans-serif; font-style: normal; font-size: 24px; line-height: 1.45; font-weight: 500; letter-spacing: -0.015em; color: var(--text); margin: 0 0 28px; position: relative; }
+.story blockquote { font-family: 'Inter Tight', sans-serif; font-style: normal; font-size: 22px; line-height: 1.45; font-weight: 500; letter-spacing: -0.015em; color: var(--text); margin: 0 0 28px; position: relative; }
 .story blockquote em { font-family: 'Inter Tight', sans-serif; font-style: normal; font-weight: 700; color: var(--accent); }
 .story-author { display: flex; align-items: center; gap: 18px; padding-top: 26px; border-top: 1px solid var(--border); position: relative; }
 .story-author .avatar-big { width: 60px; height: 60px; border-radius: 50%; background: var(--purple); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 22px; font-family: 'Inter Tight', sans-serif; font-style: normal; letter-spacing: -0.01em; flex-shrink: 0; }
 .story-author .info .name { font-size: 16.5px; font-weight: 700; }
 .story-author .info .role { font-size: 13.5px; color: var(--muted); margin-top: 2px; }
 .story-stat { text-align: center; padding: 30px 24px; background: rgba(0,0,0,0.30); border: 1px solid var(--border); border-radius: 22px; position: relative; }
-.story-stat .num { font-family: 'Inter Tight', sans-serif; font-size: 56px; font-weight: 900; letter-spacing: -0.04em; line-height: 1; margin-bottom: 14px; background: none; -webkit-background-clip: border-box; background-clip: border-box; -webkit-text-fill-color: currentColor; color: var(--accent); }
+.story-stat .num { font-family: 'Inter Tight', sans-serif; font-size: 48px; font-weight: 900; letter-spacing: -0.04em; line-height: 1; margin-bottom: 14px; background: none; -webkit-background-clip: border-box; background-clip: border-box; -webkit-text-fill-color: currentColor; color: var(--accent); }
 .story-stat .label { font-size: 14px; color: var(--text-2); line-height: 1.5; max-width: 260px; margin: 0 auto; }
 .test-mini-row { max-width: 1080px; margin: 24px auto 0; padding: 0 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .test-mini { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 32px; backdrop-filter: blur(12px); }
@@ -329,13 +329,13 @@ a { color: inherit; text-decoration: none; }
 .custom-link a { color: var(--purple-bright); text-decoration: underline; text-underline-offset: 3px; }
 
 /* FINAL */
-.final { position: relative; z-index: 1; padding: 160px 0 130px; text-align: center; }
-.final::before { content:""; position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 1px; height: 80px; background: linear-gradient(180deg, transparent, var(--accent-soft), transparent); }
-.final-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); margin-bottom: 36px; font-weight: 500; padding-top: 80px; }
-.final h2 { font-family: 'Inter Tight', sans-serif; font-size: 92px; line-height: 0.98; letter-spacing: -0.032em; font-weight: 800; max-width: 920px; margin: 0 auto 28px; padding: 0 40px; }
+.final { position: relative; z-index: 1; padding: 90px 0 90px; text-align: center; }
+.final::before { content:""; position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 1px; height: 54px; background: linear-gradient(180deg, transparent, var(--accent-soft), transparent); }
+.final-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); margin-bottom: 22px; font-weight: 500; padding-top: 44px; }
+.final h2 { font-family: 'Inter Tight', sans-serif; font-size: 54px; line-height: 1.06; letter-spacing: -0.03em; font-weight: 800; max-width: 760px; margin: 0 auto 22px; padding: 0 40px; }
 .final h2 em { font-family: 'Inter Tight', sans-serif; font-style: normal; font-weight: 800; color: var(--accent); }
 .final h2 .gradient { background: none; -webkit-background-clip: border-box; background-clip: border-box; -webkit-text-fill-color: currentColor; color: var(--purple-bright); font-style: normal; font-weight: 800; }
-.final p { font-size: 19px; color: var(--text-2); max-width: 580px; margin: 0 auto 42px; padding: 0 40px; }
+.final p { font-size: 17px; color: var(--text-2); max-width: 560px; margin: 0 auto 34px; padding: 0 40px; }
 .final-trust { display: flex; gap: 26px; justify-content: center; margin-top: 30px; font-size: 13px; color: var(--text-2); flex-wrap: wrap; }
 .final-trust span { display: flex; align-items: center; gap: 7px; }
 .final-trust span::before { content: "✓"; color: var(--green); font-weight: 700; }
@@ -403,7 +403,7 @@ footer .ftbadge::before { content: ""; width: 6px; height: 6px; border-radius: 5
 .bridge-text h3 em,
 .final h2 em,
 .manifesto em {
-  font-family: 'Instrument Serif', Georgia, serif;
+  font-family: Georgia, 'Times New Roman', serif;
   font-style: italic;
   font-weight: 400;
   color: var(--accent);

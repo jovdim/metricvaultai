@@ -11,7 +11,6 @@ export default function SocialStory() {
       </div>
       <div className="story">
         <div>
-          <div className="quote-mark">&quot;</div>
           <blockquote>
             We caught a competitor outranking us in ChatGPT recommendations for a{" "}
             <em>$40K/mo keyword</em>. Found it Monday. Fixed it Friday. That

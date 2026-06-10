@@ -16,16 +16,16 @@ export default function Footer() {
             <ul className="ftcontact">
               <li>
                 <span className="lbl">Office</span>
-                <span>123 Anywhere St, Suite 200, Wilmington, DE</span>
+                <span>Hollywood, FL 33020</span>
               </li>
               <li>
                 <span className="lbl">Phone</span>
-                <a href="tel:+15550000000">+1 (555) 000-0000</a>
+                <a href="tel:+13055635051">+1 (305) 563-5051</a>
               </li>
               <li>
                 <span className="lbl">Email</span>
-                <a href="mailto:support@metricvaultai.com">
-                  support@metricvaultai.com
+                <a href="mailto:hello@metricvaultai.com">
+                  hello@metricvaultai.com
                 </a>
               </li>
             </ul>
