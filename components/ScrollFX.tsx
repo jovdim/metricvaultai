@@ -27,7 +27,6 @@ export default function ScrollFX() {
       [".chart-box", "reveal-left", false],
       [".engines", "reveal-right", false],
       [".logos .lab", "reveal-up", false],
-      [".logo-strip .ld", "reveal-up", true],
       [".problem-kicker", "reveal-up", false],
       [".manifesto", "reveal-up", false],
       [".problem-cell", "reveal-up", true],
