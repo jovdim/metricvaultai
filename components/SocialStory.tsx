@@ -17,7 +17,6 @@ export default function SocialStory() {
             single insight paid for two years of MetricVault.
           </blockquote>
           <div className="story-author">
-            <div className="avatar-big">JR</div>
             <div className="info">
               <div className="name">Jamie Reyes</div>
               <div className="role">Head of Growth, NorthStack</div>
@@ -39,7 +38,6 @@ export default function SocialStory() {
             data, the AI engines included.&quot;
           </blockquote>
           <div className="author">
-            <div className="avatar">AD</div>
             <div>
               <div className="name">Anna Diaz</div>
               <div className="role">Freelance SEO</div>
@@ -52,7 +50,6 @@ export default function SocialStory() {
             Every prospect, every time.&quot;
           </blockquote>
           <div className="author">
-            <div className="avatar">MK</div>
             <div>
               <div className="name">Marc Klein</div>
               <div className="role">Director, Vivid&amp;Co</div>

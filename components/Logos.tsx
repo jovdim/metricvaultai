@@ -17,16 +17,17 @@ export default function Logos() {
       </div>
       <div className="logo-strip">
         <div className="logo-track">
-          {LOGOS.map((l, i) => (
-            <div className="ld" key={i}>
-              {l}
-            </div>
-          ))}
-          {LOGOS.map((l, i) => (
-            <div className="ld" key={`dup-${i}`} aria-hidden="true">
-              {l}
-            </div>
-          ))}
+          {Array.from({ length: 4 }).flatMap((_, copy) =>
+            LOGOS.map((l, i) => (
+              <div
+                className="ld"
+                key={`${copy}-${i}`}
+                aria-hidden={copy > 0 ? true : undefined}
+              >
+                {l}
+              </div>
+            ))
+          )}
         </div>
       </div>
     </section>
